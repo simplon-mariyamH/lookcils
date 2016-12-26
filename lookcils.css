@@ -1,0 +1,167 @@
+body {
+
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'GFS Didot', serif;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(232, 28, 45);
+}
+
+header a:visited {
+    color: rgb(232, 28, 45);
+}
+
+footer {
+
+}
+
+#entete {
+	width: 100%;
+	height: 92vh;
+/*
+	background-color: pink;
+	opacity: 0.9;
+*/
+	/*background-color: blue;*/
+	display: flex;
+	flex-direction: column;
+}
+
+/*#logo {
+	height: 30%;
+	background-image: url(logocils.png);
+	z-index: 3;
+}*/
+
+#accueil {
+	/*width: 100%;*/
+	background: url('logo.jpg') center / cover;
+/*	background: url('logocils.png') center / cover;*/
+	background-size: 100% 100%; 
+	height: 80%;
+}
+
+#info{
+	/*width: 100%;*/
+	height: 20%;
+	background-color: rgb(232, 28, 45);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+#a_propos h1 span {
+    color:rgb(227, 54, 68);
+    margin-left: 20%;
+}
+#a_propos p span {
+    color:rgb(227, 54, 68);
+}#a_propos ul span {
+    color:rgb(227, 54, 68);
+}
+#a_propos h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+#a_propos ul li {
+    list-style-type: none;
+    background-image: url(puce.png);
+    background-repeat: no-repeat; 
+    background-size: 30px 10px;
+    background-position: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+    
+}
+#a_propos {
+    font-family: fantasy;
+    margin-left: 5%;
+	width: 100%;
+	height: 92vh;
+	background-color: white;
+    color: gray;
+}
+#prestation h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Cormorant Garamond', serif;
+}
+#prestation p {
+    text-align: center;
+}
+#image {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.presta img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vh;
+}
+
+.presta {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vh;
+   
+}
+#prestation {
+	width: 100%;
+	height: 92vh;
+	background-color: #db1d3e;
+}
+
+#galerie {
+	width: 100%;
+	height: 92vh;
+	background-color: #cbbdbd;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#test {
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+
+#info_pratique {
+	width: 100%;
+	height: 122vh;
+	background-color: #d01939;
+    display: flex;
+    flex-direction: column;
+}
+
+.placement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.reglement {
+    text-align: center;
+}
