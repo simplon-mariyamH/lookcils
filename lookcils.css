@@ -39,6 +39,10 @@ html, body {
     height: 50px;
     opacity: 0.3;
 }
+a {
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+}
 
 #qui_sommes_nous {
     position: relative;
@@ -221,12 +225,14 @@ font-size: 62px;
 
 #galerie {
     position: relative;
-    background: url("fond_galerie.png");
+    background: url("fond_galerie.png") fixed;
     width: 100%;
     top: 0px;
     display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
-.section p{
+.section_titre p{
   font-size: 92px;
   font-family: "Ifti";
   color: rgb(102, 102, 102);
@@ -236,7 +242,32 @@ font-size: 62px;
   margin-left: 3%;
   width: 100%;
 }
-.section span {
+.section_titre span {
     font-size: 52px;
     color: #cc0066;
+}
+.section_galerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.photo {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+}
+
+#info {
+    position: relative;
+    background: url("fond_info.png") fixed;
+    width: 100%;
+    top: 0px;
+    height: 750px;
 }
