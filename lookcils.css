@@ -2,107 +2,106 @@ html, body {
 
  }
 #accueil {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 .nav_barre {
-    width: 100%;
-    font-size: 38px;
+  width: 100%;
+  font-size: 38px;
   font-family: "Ifti", "serif";
   color: rgb(85, 80, 80);
   text-transform: uppercase;
-  line-height: 1.2;
-    text-align: center;
+  line-height: 1.2;    text-align: center;
 }
 .nav_barre p span {
-    color: #cc0066;
+  color: #cc0066;
 }
 .avant_apres {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .avant_apres img{
-    width: 60%;
-    height: 150px;
-    margin: 1%;
+  width: 60%;
+  height: 150px;
+  margin: 1%;
 }
 .bouton_chevron{
-    width: 10%;
-    height: 50px;
-    opacity: 0.3;
+  width: 10%;
+  height: 50px;
+  opacity: 0.3;
 }
 a {
-    text-decoration: none;
-    color: rgb(85, 80, 80);
+  text-decoration: none;
+  color: rgb(85, 80, 80);
 }
 
 #qui_sommes_nous {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 #droite {
-    height: 769px;
-    width: 30%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  height: 769px;
+  width: 30%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #gauche{
-   background-color: white;
-   height: 700px;
-   width: 70%;
+  background-color: white;
+  height: 700px;
+  width: 70%;
 }
 .coin {
-    display: flex;
-    position: relative;
-    justify-content: flex-end;    
+  display: flex;
+  position: relative;
+  justify-content: flex-end;    
 }
 #template{
-    width: 80%;
-    height: 300px;
+  width: 80%;
+  height: 300px;
 }
 #photo_joella {
-    z-index: 2;
-    width: 40%;
-    height: 250px;
-    position: absolute;
-    margin-top: 9%;
-    margin-left: -11%;
+  z-index: 2;
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  margin-top: 9%;
+  margin-left: -11%;
 }
 .reseaux_sociaux {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30%;
-    height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30%;
+  height: 20%;
 }
 .snapcode {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #gauche h1 {
-font-size: 62px;
+  font-size: 62px;
   font-family: "Ifti";
   color: rgb(85, 80, 80);
   text-transform: uppercase;
   line-height: 1.389;
   text-align: center;
   position: relative;
-    font-style: italic;
+  font-style: italic;
 }
 #qui_sommes_nous p {
   font-size: 36px;
@@ -114,7 +113,7 @@ font-size: 62px;
   margin-left: 2%; 
 }
 #gauche h1 span {
-    color: #cc0066;
+  color: #cc0066;
 }
 #gauche ul li {
   font-size: 36px;
@@ -128,26 +127,26 @@ font-size: 62px;
     
 }
 #gauche p span {
-    color: #cc0066;
-    font-weight: bold;
+  color: #cc0066;
+  font-weight: bold;
     
 }
 #gauche li span {
-    color: #cc0066;
-    font-weight: bold;
+  color: #cc0066;
+  font-weight: bold;
     
 }
 .snapcode p {
-    color: #cc0066 !important;
+  color: #cc0066 !important;
 }
 
 #prestation {
-    position: relative;
-    width: 100%;
-    top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .entete h1{
   font-size: 52px;
@@ -159,78 +158,78 @@ font-size: 62px;
   margin: 11px;
 }
 .contenu {
-    background: url("tache_rose.png");
-    width: 100%;
-    z-index: 10;
+  background: url("tache_rose.png");
+  width: 100%;
+  z-index: 10;
 }
 .contenu p {
-    font-size: 26px;
-    font-family:"Ifti";
-    font-weight: 800;
-    background-color: white;
+  font-size: 26px;
+  font-family:"Ifti";
+  font-weight: 800;
+  background-color: white;
 }
 .texte {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .texte_gauche {
-    display: flex;
-    justify-content: flex-start;
-    z-index: 2;
-    width: 40%;
-    height: 50px;
-    position: relative;
-    padding: 15px;
-    margin-right: 25%;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 2;
+  width: 40%;
+  height: 50px;
+  position: relative;
+  padding: 15px;
+  margin-right: 25%;
 }
 .texte_gauche span {
-    color: #85134c;
-    font-size: 50px;
-    background-color: white;
+  color: #85134c;
+  font-size: 50px;
+  background-color: white;
 }
 .texte_centre {
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-    width: 40%;
-    height: 50px;
-    position: relative; 
-    padding: 15px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  width: 40%;
+  height: 50px;
+  position: relative; 
+  padding: 15px;
 }
 .texte_droite {
-    display: flex;
-    justify-content: flex-end;
-    z-index: 3;
-    width: 40%;
-    height: 50px;
-    position: relative; 
-    padding: 15px;
-    margin-left: 25%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 3;
+  width: 40%;
+  height: 50px;
+  position: relative; 
+  padding: 15px;
+  margin-left: 25%;
 }
 .presta {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 .image {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center
 }
 .image p {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 #galerie {
-    position: relative;
-    background: url("fond_galerie.png") fixed;
-    width: 100%;
-    top: 0px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+  position: relative;
+  background: url("fond_galerie.png") fixed;
+  width: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .section_titre p{
   font-size: 92px;
@@ -243,31 +242,104 @@ font-size: 62px;
   width: 100%;
 }
 .section_titre span {
-    font-size: 52px;
-    color: #cc0066;
+  font-size: 52px;
+  color: #cc0066;
 }
 .section_galerie {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 .section {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .photo {
-    position: relative;
-    width: 400px;
-    height: 300px;
-    background-color: grey;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: grey;
 }
 
 #info {
-    position: relative;
-    background: url("fond_info.png") fixed;
-    width: 100%;
-    top: 0px;
-    height: 750px;
+  position: relative;
+  background: url("fond_info.png");
+  width: 100%;
+  top: 0px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+}
+.info_contenu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+}
+.credit {
+  background-color: #666666;
+  color: white;
+  font-family: "Futura";
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+}
+.credit p {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+.info_gauche {
+  width: 50%;
+}
+.info_droite {
+  width: 50%;
+}
+.info_titre h1 {
+  font-size: 60px;
+  font-family: "Ifti";
+  color: rgb(43, 41, 42);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-left: 5%;
+}
+.info_texte p {
+  font-size: 45px;
+  font-family: "ylee MHIM";
+  color: rgb(43, 41, 42);
+  line-height: 1.7;
+  margin-left: 5%;
+}
+.info_image {
+  position: relative;
+  display: flex;
+  margin-top: 20%;
+  margin-left: 35%;
+}
+.info_adresse {
+  font-family: "Ifti";
+  text-transform: uppercase;
+  margin-top: 15%;
+}
+.info_adresse h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.info_adresse h2 {
+  background-color: white;
+}
+.info_lieu {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lieu, .voiture, .tcl {
+  background-color: white;
 }
